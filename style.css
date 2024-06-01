@@ -48,7 +48,7 @@ header {
     background-color: black;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 20%, rgba(73, 24, 24, 1) 50%, rgba(32, 32, 32, 1) 80%);
     border-radius: 10px;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 10px;
 
 }
 
@@ -350,7 +350,7 @@ header {
 
 .card {
     width: 80px;
-    border-radius: .75rem;
+    /* border-radius: .75rem; */
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
@@ -456,7 +456,7 @@ input:checked+label .description {
 
 .card1 {
     width: 80px;
-    border-radius: .75rem;
+    /* border-radius: .75rem; */
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
@@ -687,9 +687,14 @@ input:checked+label .description1 {
 
 .contactlist {
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: red;
 }
+
+
+
+
 
 @media (min-width: 1500px) {
 
